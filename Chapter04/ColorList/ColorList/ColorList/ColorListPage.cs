@@ -11,6 +11,7 @@ namespace ColorList
             double fontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label));
             Content = new StackLayout
             {
+                Spacing = 0,
                 Children =
                 {
                     new Label

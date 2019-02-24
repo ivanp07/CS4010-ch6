@@ -11,7 +11,9 @@ namespace Greetings
             {
                 Text = "Greetings, Xamarin.Forms!",
                 HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Center
+                VerticalOptions = LayoutOptions.Center,
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                FontAttributes = FontAttributes.Bold | FontAttributes.Italic
             };
         }
     }

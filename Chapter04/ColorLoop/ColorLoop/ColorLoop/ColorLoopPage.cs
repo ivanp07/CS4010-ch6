@@ -37,7 +37,7 @@ namespace ColorLoop
                     {
                         Text = color.name,
                         TextColor = color.value,
-                        FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
+                        FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label))
                     });
             }
 

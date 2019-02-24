@@ -20,7 +20,8 @@ namespace VariableFormattedParagraph
                         new Span
                         {
                             Text = "very",
-                            FontAttributes = FontAttributes.Italic
+                            FontAttributes = FontAttributes.Italic,
+                            ForegroundColor = Color.Yellow
                         },
                         new Span
                         {
@@ -46,7 +47,7 @@ namespace VariableFormattedParagraph
                         new Span
                         {
                             Text = "took a watch out of its waistcoat-pocket",
-                            FontAttributes = FontAttributes.Italic
+                            FontAttributes = FontAttributes.Italic | FontAttributes.Bold
                         },
                         new Span
                         {
@@ -64,7 +65,9 @@ namespace VariableFormattedParagraph
                 },
 
                 HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Center
+                VerticalOptions = LayoutOptions.Center,
+                BackgroundColor = Color.Aquamarine,
+                TextColor = Color.Black
             };
         }
     }
