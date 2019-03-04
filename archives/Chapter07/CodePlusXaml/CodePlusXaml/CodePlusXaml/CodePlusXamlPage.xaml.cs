@@ -10,7 +10,7 @@ namespace CodePlusXaml
             InitializeComponent();
 
             Label label = new Label
-            {
+            {f
                 Text = "Hello from Code!",
                 IsVisible = true,
                 Opacity = 0.75,

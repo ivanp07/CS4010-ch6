@@ -21,6 +21,7 @@ namespace SimplestKeypad
             displayLabel = new Label
             {
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                BackgroundColor = Color.Blue,
                 VerticalOptions = LayoutOptions.Center,
                 HorizontalTextAlignment = TextAlignment.End
             };
@@ -29,8 +30,10 @@ namespace SimplestKeypad
             // Second row is the backspace Button.
             backspaceButton = new Button
             {
-                Text = "\u21E6",
+                Text = "\u2B05",
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Button)),
+                BackgroundColor = Color.Red,
+                FontAttributes = FontAttributes.Bold,
                 IsEnabled = false
             };
             backspaceButton.Clicked += OnBackspaceButtonClicked;

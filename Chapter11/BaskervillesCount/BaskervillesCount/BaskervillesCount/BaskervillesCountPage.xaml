@@ -9,6 +9,7 @@
     <StackLayout>
         <toolkit:CountedLabel x:Name="countedLabel"
                               VerticalOptions="CenterAndExpand"
+                             
                               Text=
 "Mr. Sherlock Holmes, who was usually very late in
 the mornings, save upon those not infrequent
@@ -24,7 +25,8 @@ from his friends of the C.C.H.,&#x201D; was engraved
 upon it, with the date &#x201C;1884.&#x201D; It was
 just such a stick as the old-fashioned family
 practitioner used to carry&#x2014;dignified, solid,
-and reassuring." />
+and reassuring. But to ensure that I can add or subract
+                              a little test must be ran." />
 
         <Label x:Name="wordCountLabel"
                Text="???"
