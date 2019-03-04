@@ -12,6 +12,7 @@
     <StackLayout>
         <BoxView x:Name="boxview0"
                  VerticalOptions="FillAndExpand">
+            
             <BoxView.GestureRecognizers>
                 <TapGestureRecognizer Tapped="OnBoxViewTapped" />                
             </BoxView.GestureRecognizers>
@@ -25,8 +26,10 @@
         </BoxView>
         
         <Button x:Name="startGameButton"
-                Text="Begin"
+                Text="Hey Monkey! Want to play!"
                 FontSize="Large"
+                FontAttributes="Bold"
+                TextColor="DarkRed"
                 HorizontalOptions="Center"
                 Clicked="OnStartGameButtonClicked" />
         

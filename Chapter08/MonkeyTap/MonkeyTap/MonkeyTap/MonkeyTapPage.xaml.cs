@@ -111,7 +111,7 @@ namespace MonkeyTap
             for (int index = 0; index < 4; index++)
                 boxViews[index].Color = Color.Gray;
 
-            startGameButton.Text = "Try again?";
+            startGameButton.Text = "You lose, Want To Try again?";
             startGameButton.IsVisible = true;
         }
     }
